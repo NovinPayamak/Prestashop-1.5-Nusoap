@@ -1,0 +1,4 @@
+مشتری: {firstname} {lastname}
+سفارش: {order_name}
+پرداخت: {payment}
+جمع کل: ({total_paid} {currency})

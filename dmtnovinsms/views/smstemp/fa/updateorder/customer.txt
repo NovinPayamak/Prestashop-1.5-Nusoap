@@ -1,0 +1,4 @@
+{shop_name}
+{firstname} {lastname} عزيز
+وضعيت جديد سفارش {order_name}:
+{order_state}
