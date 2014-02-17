@@ -31,14 +31,14 @@ class NovinWebService
         try {
             
 				$result = $client->call('Send', array(
-																array(
-																		'Auth' 	=> array('number' => $this->username,'pass' => $this->password),
-																		'Recipients' => array($phonenumber),
-																		'Message' => array($text),
-																		'Flash' => false
-																	)
-																)
-				);
+													array(
+															'Auth' 	=> array('number' => $this->username,'pass' => $this->password),
+															'Recipients' => array('string' => array($phonenumber)),
+															'Message' => array('string' => array($text)),
+															'Flash' => false
+														)
+													)
+	);
 			
 			
         }
